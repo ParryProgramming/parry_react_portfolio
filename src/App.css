@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.main-content {
+  display: flex;
+  align-items: start; /* Align items to the start of the container */
+  gap: 20px; /* Add some gap between the image and the bio */
+}

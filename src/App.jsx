@@ -5,15 +5,17 @@ import Navigation from './components/Navigation';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import mainImage from '../src/images/profile.jpeg'; 
-import Bio from './components/Bio'; // import the Bio component
+import Bio from './components/Bio'; 
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Navigation />
-      <img src={mainImage} alt="Main" />
-      <Bio /> {Bio}
+      <div className="main-content"> {/* Add this div */}
+        <img src={mainImage} alt="Main" />
+        <Bio />
+      </div>
       <Project />
       <Footer />
     </div>
