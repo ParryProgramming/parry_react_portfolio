@@ -6,9 +6,8 @@ function Bio() {
   return (
     // wrapping the content inside a div with a class of "bio"
     <div className="bio">
-      <h2>About Me</h2> // Heading
+      <h2>About Me</h2> 
       <p>
-        // Paragraph describing the person's bio
         I'm a software engineer with a passion for learning and building
         innovative solutions. I have experience in full-stack development,
         including JavaScript, React, Node.js, and more. 
