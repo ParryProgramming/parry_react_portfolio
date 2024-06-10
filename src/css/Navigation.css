@@ -6,7 +6,9 @@ nav {
   }
   
   nav a {
-    margin: 0 10px;
+    font-size: 20px;
+    flex: space-between;
+    margin: 0 90px;
     text-decoration: none;
     color: #333;
   }
