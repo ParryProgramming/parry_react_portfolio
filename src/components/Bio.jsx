@@ -1,10 +1,14 @@
+// importing React library
 import React from 'react';
 
+// Bio component
 function Bio() {
   return (
+    // wrapping the content inside a div with a class of "bio"
     <div className="bio">
-      <h2>About Me</h2>
+      <h2>About Me</h2> // Heading
       <p>
+        // Paragraph describing the person's bio
         I'm a software engineer with a passion for learning and building
         innovative solutions. I have experience in full-stack development,
         including JavaScript, React, Node.js, and more. 
@@ -14,4 +18,5 @@ function Bio() {
   );
 }
 
+// exporting the Bio component to be used in other parts of the application
 export default Bio;
