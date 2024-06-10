@@ -9,7 +9,7 @@ Welcome to my React portfolio! I was able to impletement most of what I learned 
 
 ## Link
 
-Link to the deployed website [Click here](parryprogramming.netlify.app)
+Link to the deployed website [Click here](https://main--parryprogramming.netlify.app/)
 
 ## Installation
 
