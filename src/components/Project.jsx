@@ -5,8 +5,8 @@ function Project() {
   return (
     <main className="main">
       <div className="project">
-        <h2>Project Title</h2>
-        <p>Project description...</p>
+        <h2></h2>
+        <p></p>
       </div>
       {/* Repeat the above div for each project */}
     </main>
